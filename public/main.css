@@ -12,7 +12,14 @@ a {
 	text-decoration: none;
 	color: #444;
 }
+.header,
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
 .header {
+	max-width: 1000px;
+	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline;
@@ -26,5 +33,60 @@ a {
 	display: inline-block;
 }
 a:hover {
-	color: tomato;
+	color: black;
+}
+
+.intro-msg {
+	margin-top: 150px;
+	padding: 20px;
+	font-size: 3.5rem;
+}
+
+.featured {
+	padding: 10px 20px;
+	font-size: 1.3rem;
+	display: inline-block;
+	background-color: tomato;
+	color: #fff;
+	border: none;
+}
+
+.form {
+	max-width: 50%;
+}
+
+.page-title, .form {
+	margin-left: 20px;
+}
+
+.page-title {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.input {
+	display: block;
+	width: 100%;
+	font-size: 1.3rem;
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: tomato;
+	color: #fff;
+	border: none;
+}
+.note {
+	display: block;
+	padding: 15px 0;
+	font-size: 1.5rem;
+	border-bottom: 2px dotted #ccc;
+}
+.notes {
+	margin: 20px 0 0 20px;
+
 }
